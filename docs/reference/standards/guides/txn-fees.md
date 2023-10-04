@@ -34,6 +34,12 @@ This table shows the transaction fee schedule:
 +----------+----------------------+-------------------------+
 | P        : Add Subnet Delegator |                   0.001 |
 +----------+----------------------+-------------------------+
+| P        : Add Permissionless   | Primary Network       0 |
+|          : Validator            | Subnet            0.001 |
++----------+----------------------+-------------------------+
+| P        : Add Permissionless   | Primary Network       0 |
+|          : Delegator            | Subnet            0.001 |
++----------+----------------------+-------------------------+
 | P        : Add Delegator        |                       0 |
 +----------+----------------------+-------------------------+
 | P        : Import AVAX          |                   0.001 |
